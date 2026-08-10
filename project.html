@@ -101,12 +101,7 @@
   document.getElementById('f-status').textContent = p.status;
 
   const gallery = document.getElementById('gallery');
-  gallery.innerHTML = `
-    <img src="${p.photos[0]}" alt="${p.name}">
-    <div class="side">
-      <img src="${p.photos[1] || p.photos[0]}" alt="${p.name}">
-      <img src="${p.photos[2] || p.photos[0]}" alt="${p.name}">
-    </div>`;
+  gallery.innerHTML = `<img src="${p.photos[0]}" alt="${p.name}" class="single">`;
 </script>
 
 <footer>

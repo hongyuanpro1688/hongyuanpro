@@ -265,6 +265,7 @@ nav.wrap{display:flex;align-items:center;justify-content:space-between;padding-t
 .project-detail .gallery img{width:100%;height:100%;object-fit:cover;}
 .project-detail .gallery .side{display:flex;flex-direction:column;gap:14px;}
 .project-detail .gallery .side img{height:calc(50% - 7px);}
+.project-detail .gallery img.single{grid-column:1/-1;max-height:520px;}
 .project-info{display:grid;grid-template-columns:2fr 1fr;gap:50px;}
 .project-info h1{font-size:30px;margin-bottom:10px;}
 .project-info .loc{color:var(--stone);font-size:14px;margin-bottom:24px;}
